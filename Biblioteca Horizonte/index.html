@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="César Arzola">
+    <title>Biblioteca Horizonte</title>
+
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="head-superior">
+            <div class="izquierda">
+                <img src="static/img/logo.png" alt="Logo" class="logo">
+                <div class="titulos">
+                    <h1 class="titulo">Biblioteca</h1>
+                    <span class="titulo2">Horizonte</span>
+                </div>
+            </div>
+            <div class="derecha">
+                <div class="iniciar">
+                    <input type="text" class="email" id="email" placeholder="Email" required>
+                    <button class="boton-inicio" id="iniciar" onclick="iniciar()">Ingresar</button>
+                </div>
+                <div class="seleccionados">
+                    <img src="static/img/libros.png" alt="Libros" class="img-seleccionados">
+                    <div>
+                        <p>Libros</p> <span>seleccionados:</span>
+                        <span class="aumento" id="aumento">0</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="head-inferior">
+            <nav class="generos">
+                <div class="genero">
+                    <img src="static/img/logo.png" alt="novela">
+                    <p>Novelas</p>
+                </div>
+                <div class="genero">
+                    <img src="static/img/ciencia.png" alt="ciencias">
+                    <p>Ciencias</p>
+                </div>
+                <div class="genero">
+                    <img src="static/img/historia.png" alt="historia">
+                    <p>Historia</p>
+                </div>
+                <div class="genero">
+                    <img src="static/img/tecnologia.png" alt="tecnologia">
+                    <p>Tecnología</p>
+                </div>
+                <div class="genero">
+                    <img src="static/img/arte.png" alt="arte">
+                    <p>Arte</p>
+                </div>
+                <div class="genero">
+                    <img src="static/img/infantil.png" alt="infantil">
+                    <p>Infantil</p>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="contenedor-principal">
+            <section class="cont-derecha">
+                <div class="contenedor-desc">
+                    <div class="descubre">
+                        <h2>Descubre nuevas historias</h2>
+                    </div>
+                    <div class="linea-azul"></div>
+                    <div class="explora">
+                        <p>
+                            Explora nuestra biblioteca virtual
+                            y encuentra libros para todos los gustos.
+                            Conocimiento, aventura y mucho más al alcance
+                            de un clic.
+                        </p>
+                    </div>
+                </div>
+                <div class="cont-video">
+                    <video controls class="video" id="video" src="static/video/video1.mp4"></video>
+                    <p>Conoce la biblioteca Horizonte</p>
+                </div>
+            </section>
+            <section class="cont-izquierda">
+                <div class="titulo-recomendado">
+                    <h2>Libros recomendados:</h2>
+                </div>
+                <div class="recomendados">
+                    <div class="recomendado">
+                        <div class="libroRec">
+                            <img src="static/img/Cien-años-de-soledad.jfif" alt="Cien años de soledad">
+                        </div>
+                        <div class="informacion">
+                            <div class="nombre">
+                                <h3>Cien años de soledad</h3>
+                                <p>Gabriel Garcia Márquez</p>
+                            </div>
+                            <div class="ver-mas">
+                                <a href="#">Ver más...</a>
+                                <button class="aumentar" id="aumentar"onclick="libroSeleccionado()">+</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="recomendado medio">
+                        <div class="libroRec">
+                            <img src="static/img/Sapiens.jfif" alt="Sapiens">
+                        </div>
+                        <div class="informacion">
+                            <div class="nombre">
+                                <h3>Sapiens</h3>
+                                <p>Yuval Noah Harari</p>
+                            </div>
+                            <div class="ver-mas">
+                                <a href="#">Ver más...</a>
+                                <button class="aumentar" id="aumentar"onclick="libroSeleccionado()">+</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="recomendado">
+                        <div class="libroRec">
+                            <img src="static/img/El-principito.jfif" alt="El principito">
+                        </div>
+                        <div class="informacion">
+                            <div class="nombre">
+                                <h3>El principito</h3>
+                                <p>Antoine de Sant-Exupéry</p>
+                            </div>
+                            <div class="ver-mas">
+                                <a href="#">Ver más...</a>
+                                <button class="aumentar" id="aumentar"onclick="libroSeleccionado()">+</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <script src="static/js/script.js"></script>
+</body>
+
+</html>

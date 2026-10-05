@@ -1,0 +1,253 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    padding: 15px 30px;
+}
+
+.head-superior {
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.izquierda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo {
+    height: 65px;
+    width: 85px;
+}
+
+.titulos {
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+}
+
+.titulo2 {
+    color: #2564AC;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.derecha {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.img-seleccionados {
+    height: 60px;
+    width: 55px;
+}
+
+.iniciar {
+    display: flex;
+    gap: 5px;
+}
+
+.iniciar input {
+    padding: 15px 180px 15px 10px;
+    border: solid 1px black;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.boton-inicio {
+    padding: 10px 30px;
+    background-color: #275BA0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform 0.3s ease;
+}
+
+.boton-inicio:hover {
+    transform: scale(1.1);
+    background-color: #2c70c7;
+}
+
+.seleccionados {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.aumento {
+    font-size: 19px;
+}
+
+.generos {
+    padding: 20px;
+    background-color: #D1DDE8;
+    display: flex;
+    gap: 20px;
+}
+
+.genero {
+    background-color: #ECF0F4;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.genero img {
+    height: 50%;
+    width: 35%;
+}
+
+.genero p {
+    font-size: 20px;
+}
+
+.contenedor-principal {
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+}
+
+.cont-derecha {
+    padding: 30px;
+    background-color: #E4E4E4;
+    max-height: 460px;
+    display: flex;
+    gap: 30px;
+    flex: 2;
+}
+
+.descubre {
+    width: 310px;
+    font-size: 30px;
+}
+
+.linea-azul {
+    padding: 3px;
+    width: 25%;
+    background-color: #144F9B;
+}
+
+.explora {
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+.contenedor-desc {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cont-video {
+    font-size: 20px;
+}
+
+.video {
+    height: 340px;
+    width: 440px;
+}
+
+.cont-izquierda {
+    padding: 0 10px 10px 10px;
+    flex: 1;
+}
+
+.titulo-recomendado {
+    font-size: 20px;
+}
+
+.recomendados {
+    margin-top: 1px;
+    width: 410px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: solid 2px #E4E4E4;
+}
+
+.recomendado {
+    height: 140px;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.medio {
+    width: 100%;
+    border-top: solid 2px #E4E4E4;
+    border-bottom: solid 2px #E4E4E4;
+}
+
+.libroRec {
+    height: 130px;
+    width: 120px;
+}
+
+.libroRec img {
+    height: 90%;
+    width: 90%;
+    border: solid 2px rgb(59, 59, 59);
+    cursor: pointer;
+}
+
+.informacion {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.ver-mas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ver-mas button {
+    padding: 8px 15px;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: #173452;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform 0.3s ease;
+}
+
+.ver-mas button:hover {
+    transform: scale(1.1);
+    background-color: #2c70c7;
+}
