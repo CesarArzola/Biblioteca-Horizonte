@@ -24,7 +24,7 @@ El sitio web incluye las siguientes características interactivas requeridas en 
 
 ---
 
-## 📁 Estructura del Proyecto
+## 📁 Estructura del Proyecto:
 
 A continuación se detalla la organización de archivos y directorios del proyecto:
 
